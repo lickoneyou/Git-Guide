@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(35, 37, 41) !important;
+  color: azure !important;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+b,
+a {
+  color: rgba(255, 0, 0, 0.606);
+}
+
+a:hover {
+  color: rgba(255, 0, 0, 0.872);
+}
+
+h1 {
+  text-align: center;
+}
+
+ol {
+  margin: 40px 0;
+  padding: 0 15%;
+}
+
+li {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.numbers,
+pre > code {
+  display: flex;
+  flex-direction: column;
+}
+
+pre {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  width: 80%;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: rgb(244, 244, 244, 0.05);
+  padding: 15px;
+  margin-bottom: 15px;
+  overflow: scroll;
+  margin-top: 15px;
+}
+
+.codeNumber {
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.comment {
+  color: forestgreen !important;
+}
+
+.console {
+  background-color: rgba(69, 77, 121, 0.166);
+  padding: 10px 30px;
+  margin-left: 50px;
+}
